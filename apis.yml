@@ -1,8 +1,18 @@
 aid: vera-security
 name: Vera Security
-description: Vera Security is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Vera Security (Vera, Inc.) was an enterprise data-centric security and
+  information rights management (IRM) company founded in 2014 and headquartered
+  in Palo Alto, California. Its platform applied encryption, access policy,
+  tracking, watermarking, and remote revocation that travel with a file
+  wherever it goes across users, devices, applications, and cloud services,
+  and it exposed an IRM-as-a-service REST API and SDK so developers could embed
+  those data-protection controls into their own applications. Backed by Battery
+  Ventures, Sutter Hill Ventures, Amplify Partners, Hasso Plattner Ventures, and
+  BMW i Ventures (roughly $77M raised), Vera was acquired by HelpSystems (now
+  Fortra) in December 2020; the product now ships as Fortra / Digital Guardian
+  Secure Collaboration. This profile documents the company's residual public
+  surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/vera-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,47 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: fortra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://secure.vera.com/img/hs-favicon.png?v=2
 tags:
 - Company
+- Data Security
+- Information Rights Management
+- Data-Centric Security
+- Encryption
+- Data Loss Prevention
+- Secure Collaboration
+- Enterprise Security
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vera-security-domain-security.yml
+- type: Website
+  url: https://secure.vera.com/
+- type: Company
+  url: https://en.wikipedia.org/wiki/Vera_Security
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
