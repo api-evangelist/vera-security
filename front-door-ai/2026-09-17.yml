@@ -1,0 +1,21 @@
+# Front Door AI Index — vera-security — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: vera-security
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: secure.vera.com
+  final_host: secure.vera.com
+  ownership: own
+  owner: vera-security
+  shares_host_with: null
+  inherited_from: null
+  verdict: thin
+  score: null
+  host_score: null
+  density: null
+  words: 12
+  tiers: null
+  ambiguous: null
+  top_terms: null
